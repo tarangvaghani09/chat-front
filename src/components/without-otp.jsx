@@ -333,24 +333,7 @@ export default Login;
 
 
 
-
-
-
-
-
-
-
-
-
-
 // with otp
-
-
-
-
-
-
-
 
 
 
