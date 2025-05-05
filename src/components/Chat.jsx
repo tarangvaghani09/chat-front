@@ -1108,6 +1108,7 @@ const Chat = ({ selectedUser, onToggleUserList }) => {
                   value={exportFromDate}
                   onChange={(e) => setExportFromDate(e.target.value)}
                   className="mt-1 p-2 border rounded cursor-pointer"
+                  max={new Date().toISOString().split('T')[0]}
                 />
               </label>
 
